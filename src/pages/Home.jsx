@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <SimpleGrid
       p="12"
-      columns={{ base: 1, md: 2, xl: 3 }}
+      columns={{ base: 1, lg: 2, xl: 3 }}
       spacing={{ base: 6, lg: 8 }}
     >
       {fableData.map((data) => (
