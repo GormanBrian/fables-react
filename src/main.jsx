@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
 
 import App from "./App.jsx";
-import { Home, Search, Fable } from "./pages";
+import { Home, Search, Fable, Settings } from "./pages";
 import theme from "./theme.js";
 
 import "./index.css";
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/fables/:id",
         element: <Fable />,
+      },
+      {
+        path: "/settings",
+        element: <Settings />,
       },
     ],
   },
